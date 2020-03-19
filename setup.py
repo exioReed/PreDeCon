@@ -6,11 +6,14 @@ with open('README.md', 'r') as fp:
     long_description = fp.read()
 
 setuptools.setup(
-    name='predecon',
+    name='predecon-exioreed',
     version='0.1',
     author='Maximilian Kaulmann',
     author_email='exioreed@ownlink.eu',
     description='PreDeCon - An Implementation in Python, Compatible With Scikit-Learn',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    url='https://github.com/exioReed/PreDeCon.git',
     packages=setuptools.find_packages(),
     install_requires=[
         'joblib>=0.14.0',
