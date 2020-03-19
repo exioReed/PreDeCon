@@ -7,7 +7,7 @@ with open('README.md', 'r') as fp:
 
 setuptools.setup(
     name='predecon-exioreed',
-    version='0.1',
+    version='0.1.1',
     author='Maximilian Kaulmann',
     author_email='exioreed@ownlink.eu',
     description='PreDeCon - An Implementation in Python, Compatible With Scikit-Learn',
